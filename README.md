@@ -27,3 +27,10 @@ git add .
 
 git commit -m "first commit"
 
+git add . && git commit -m "update README.md"
+
+git remote add origin https://github.com/saikrishnabudi/simple-dvc-demo.git
+
+git branch -M main
+
+git push origin main
