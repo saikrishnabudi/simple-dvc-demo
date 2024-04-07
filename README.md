@@ -1,29 +1,20 @@
 created environment
 
-'''bash
-
+```bash
 conda create -n wine_quality python=3.9 -y
-
-'''
-
+```
 activate environment
 
-'''bash
-
+```bash
 conda activate wine_quality
-
-'''
-
+```
 created the requirement file
 
 install the requirement file
 
-''' bash
-
+```bash
 pip install -r requirements.txt
-
-'''
-
+```
 ```bash
 git init
 ```
