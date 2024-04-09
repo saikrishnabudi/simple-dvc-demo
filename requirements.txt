@@ -9,6 +9,7 @@ tox
 flake8
 flask
 gunicorn
+mlflow
 
 # local package install
 -e .

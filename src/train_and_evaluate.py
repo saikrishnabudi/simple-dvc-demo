@@ -1,6 +1,6 @@
-## load the train and test files
-## training the algorithm and save the metrics and parameters
-
+# load the train and test
+# train algo
+# save the metrices, params
 import os
 import warnings
 import sys
@@ -90,3 +90,5 @@ if __name__=="__main__":
     args.add_argument("--config", default="params.yaml")
     parsed_args = args.parse_args()
     train_and_evaluate(config_path=parsed_args.config)
+
+
